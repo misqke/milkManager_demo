@@ -6,6 +6,7 @@ import { Layout } from "../components";
 
 // axios.defaults.baseURL = "http://localhost:8000/";
 axios.defaults.baseURL = "https://milk-manager.herokuapp.com/";
+axios.defaults.headers = { "Access-Control-Allow-Origin": "*" };
 
 function MyApp({ Component, pageProps }) {
   return (
