@@ -11,7 +11,7 @@ const HomePage = ({ user }) => {
   return (
     <div className={styles.homePage}>
       <div className={styles.homeBanner}>
-        <h1>Milk Manager</h1>
+        <h1>Milk Manager Demo</h1>
         <h4>{user.name}</h4>
       </div>
       <div className={styles.homeBtnContainer}>

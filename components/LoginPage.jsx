@@ -37,7 +37,7 @@ const LoginPage = () => {
   return (
     <div className={styles.loginPage}>
       <div className={styles.loginBanner}>
-        <h1>Milk Manager</h1>
+        <h1>Milk Manager Demo</h1>
       </div>
       <form onSubmit={(e) => handleSubmit(e)} className={styles.loginForm}>
         {msg.value.length > 0 && (
