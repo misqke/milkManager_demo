@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   return (
     <div className={styles.layoutContainer}>
       <Head>
-        <title>Milk Manager</title>
+        <title>Milk Manager Demo</title>
       </Head>
       {children}
     </div>
